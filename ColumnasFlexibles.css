@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
+.col{
+    color: white;
+    background-color: #5f9ea1;
+    flex: 1;/*permite separar en una porcion de torta :)*/
+    margin: 10px 15px 10px 0px ;/*permite ajustar el tamaño */
+    padding: 20px;/*permite separar los 1/4 del borde*/
+
+}
+
+.col-2{
+    color: white;/*colo a las letras*/
+    background-color: #5f9ea1 ;/*color de fondo */
+    flex: 2;/*permite separa en dos porciones de torta :)*/
+    margin: 10px 15px 10px 0px;
+    padding: 20px;
+}
+.col-3{
+    color: white;
+    background-color: #5f9ea1;
+    flex: 3;/*permite separa en tres porciones de torta*/
+    padding: 20px;
+    margin: 10px 15px 10px 0px;
+}
